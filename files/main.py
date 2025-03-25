@@ -129,4 +129,4 @@ sns.barplot(x="Importance", y="Feature", data=feature_importance_df)
 plt.title("Ważność cech w modelu Random Forest")
 plt.show()
 
-df_kmer_normalized.to_csv("rozszerzone_cechy_sekwencji.csv", index=False)
+df_kmer_normalized.to_csv("cechy_sekwencji.csv", index=False)
